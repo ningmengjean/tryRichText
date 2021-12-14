@@ -1,0 +1,38 @@
+PODS:
+  - DTCoreText (1.6.26):
+    - DTCoreText/Core (= 1.6.26)
+    - DTFoundation/Core (~> 1.7.5)
+    - DTFoundation/DTAnimatedGIF (~> 1.7.5)
+    - DTFoundation/DTHTMLParser (~> 1.7.5)
+    - DTFoundation/UIKit (~> 1.7.5)
+  - DTCoreText/Core (1.6.26):
+    - DTFoundation/Core (~> 1.7.5)
+    - DTFoundation/DTAnimatedGIF (~> 1.7.5)
+    - DTFoundation/DTHTMLParser (~> 1.7.5)
+    - DTFoundation/UIKit (~> 1.7.5)
+  - DTFoundation/Core (1.7.18)
+  - DTFoundation/DTAnimatedGIF (1.7.18)
+  - DTFoundation/DTHTMLParser (1.7.18):
+    - DTFoundation/Core
+  - DTFoundation/UIKit (1.7.18):
+    - DTFoundation/Core
+  - RichEditorView (5.0.0)
+
+DEPENDENCIES:
+  - DTCoreText
+  - RichEditorView
+
+SPEC REPOS:
+  trunk:
+    - DTCoreText
+    - DTFoundation
+    - RichEditorView
+
+SPEC CHECKSUMS:
+  DTCoreText: ec749e013f2e1f76de5e7c7634642e600a7467ce
+  DTFoundation: a53f8cda2489208cbc71c648be177f902ee17536
+  RichEditorView: 1bbb07b87ca2d479ac29a6877014b38b8df233ef
+
+PODFILE CHECKSUM: 4711f996d9d1ad8662a7a6bfc96071f00a78562c
+
+COCOAPODS: 1.11.2
